@@ -22,6 +22,9 @@
     contador = [Contador instancia];
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    [self click:self];
+}
 
 
 - (void)didReceiveMemoryWarning {
